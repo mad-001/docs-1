@@ -19,7 +19,7 @@ The connector connects outbound to Takaro over WebSocket and provides player eve
 
 ## Notes
 
-- The connector supports specific game builds, including Enshrouded 1.0. Keep the server on a supported build by switching automatic game updates off.
+- The connector is tested on specific game builds, including Enshrouded 1.0. After a game update it reads the new build's values from the game itself, so most updates need no new connector download.
 - On Linux under Wine/Proton, set `WINEDLLOVERRIDES=dbghelp=n,b` so the server loads the connector.
 - Messages from Takaro appear in game chat under the name of an online player.
 
