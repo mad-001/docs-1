@@ -2,11 +2,11 @@ import GameHero from '@site/src/components/GameHero';
 
 <GameHero
   title="Enshrouded"
-  description="Connect Enshrouded dedicated servers to Takaro with one DLL: player events, chat, item delivery, teleports, and moderation."
+  description="Connect Enshrouded dedicated servers to Takaro through the community connector DLL and outbound generic connector."
   image="/img/games/enshrouded.jpg"
 />
 
-Takaro supports Enshrouded through the Takaro Enshrouded Connector, a single `dbghelp.dll` that runs inside your dedicated server and implements the Takaro Generic Connector Protocol. Players do not install anything.
+Takaro connects to your Enshrouded dedicated server through the community-maintained Takaro Enshrouded Connector, a single `dbghelp.dll` that runs inside the server and implements the Takaro Generic Connector Protocol. Players do not install anything.
 
 The connector connects outbound to Takaro over WebSocket, so no port forwarding is needed. Enshrouded has no RCON or console of its own; the connector provides player events, chat, item delivery, teleports, kick and ban.
 
