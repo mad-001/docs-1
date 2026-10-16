@@ -15,7 +15,7 @@ The connector connects outbound to Takaro over WebSocket and provides player eve
 1. Download `takaro-enshrouded-plugin.zip` from the latest `enshrouded-vX.Y.Z` release on the [gettakaro/connectors releases](https://github.com/gettakaro/connectors/releases) page.
 2. Stop your Enshrouded server and copy `dbghelp.dll` from the zip next to `enshrouded_server.exe`.
 3. In Takaro, go to **Game servers**, click **Create new game server** and choose **Generic** to see your registration token. The server appears in Takaro by itself when it connects.
-4. Start the server. It creates `takaro/plugin.json` next to `enshrouded_server.exe`; paste your registration token into `registrationToken` and save. The connector connects within a few seconds.
+4. Start the server. It creates `takaro/plugin.json` next to `enshrouded_server.exe`; paste your registration token into `registrationToken`, put your server's name into `identityToken` and save. The connector connects within a few seconds, and the server appears in Takaro under that name.
 
 ## Notes
 
