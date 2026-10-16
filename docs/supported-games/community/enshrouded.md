@@ -8,7 +8,7 @@ import GameHero from '@site/src/components/GameHero';
 
 Takaro connects to your Enshrouded dedicated server through the community-maintained Takaro Enshrouded Connector, a single `dbghelp.dll` that runs inside the server and implements the Takaro Generic Connector Protocol. Only the server needs it; players join as usual.
 
-The connector connects outbound to Takaro over WebSocket and provides player events, chat, item delivery, teleports, kick and ban.
+The connector connects outbound to Takaro over WebSocket and provides player events, chat, item delivery, teleports, kick and ban, plus character levels for your modules.
 
 ## Installation
 
